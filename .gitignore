@@ -1,0 +1,38 @@
+# Windows 관련 파일
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+
+# IntelliJ 관련 파일
+.idea/
+*.iml
+*.iws
+out/
+
+# Java 및 Gradle/Maven 빌드 관련
+*.class
+*.jar
+*.war
+*.ear
+/build/
+/target/
+/.gradle/
+/.mvn/
+
+# 로그 및 설정 파일
+*.log
+*.env
+*.properties
+*.yml
+*.yaml
+
+# Spring Boot 관련
+/*.db
+/h2-console/
+
+# Git 관련
+*.swp
+*.swo
+.DS_Store
+!.gitignore
